@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer color {
+    :root {
+        --primarycolor: #000;
+        --secondarycolor: #fff;
+        --accentcolor: #DF834C;
+        --navbgcolor: #F5E9DD;
+        --bgcolor: #FFF8EF;
+    }
+}
+
+@layer components {
+    .icon-text > a {
+        font-size: 20px;
+        font-weight: 500;
+        color: #DF834C;
+    }
+
+    .nav-text-link > li > a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
