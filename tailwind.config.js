@@ -16,6 +16,9 @@ module.exports = {
         parisienne: ['Parisienne', 'cursive'],
         roboto: ['Roboto', 'sans-serif'],
       },
+      container: {
+        center: true,
+      },
       screens: {
         'xs': '430px',
         'ss': '540px',

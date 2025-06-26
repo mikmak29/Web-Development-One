@@ -576,6 +576,74 @@ video {
   font-weight: 700;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.top-\[50\%\]{
+  top: 50%;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.left-\[-5px\]{
+  left: -5px;
+}
+
+.left-\[-5p10\]{
+  left: -5p10;
+}
+
+.left-\[-10px\]{
+  left: -10px;
+}
+
+.left-\[-20px\]{
+  left: -20px;
+}
+
+.left-\[-40px\]{
+  left: -40px;
+}
+
+.left-\[-30px\]{
+  left: -30px;
+}
+
+.top-\[45\%\]{
+  top: 45%;
+}
+
+.right-\[-10px\]{
+  right: -10px;
+}
+
+.right-\[-30px\]{
+  right: -30px;
+}
+
+.right-\[-20px\]{
+  right: -20px;
+}
+
+.left-\[-32px\]{
+  left: -32px;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -596,8 +664,32 @@ video {
   height: 100px;
 }
 
+.h-\[200px\]{
+  height: 200px;
+}
+
 .h-auto{
   height: auto;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
+.h-\[80px\]{
+  height: 80px;
+}
+
+.h-\[70px\]{
+  height: 70px;
+}
+
+.h-\[65px\]{
+  height: 65px;
+}
+
+.w-\[200px\]{
+  width: 200px;
 }
 
 .w-\[80\%\]{
@@ -614,6 +706,26 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.w-\[100px\]{
+  width: 100px;
+}
+
+.w-\[50px\]{
+  width: 50px;
+}
+
+.w-\[80px\]{
+  width: 80px;
+}
+
+.w-\[70px\]{
+  width: 70px;
+}
+
+.w-\[65px\]{
+  width: 65px;
 }
 
 .flex-col{
