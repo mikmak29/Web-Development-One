@@ -4,13 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    * {
+        @apply font-roboto;
+    }
+}
+
 @layer color {
     :root {
         --primarycolor: #000;
         --secondarycolor: #fff;
-        --accentcolor: #DF834C;
+        --accentcolor: #F27B39;
         --navbgcolor: #F5E9DD;
         --bgcolor: #FFF8EF;
+        --text-accent-color: #776E63;
     }
 }
 
@@ -18,11 +25,16 @@
     .icon-text > a {
         font-size: 20px;
         font-weight: 500;
-        color: #DF834C;
+        color: #F27B39;
     }
 
     .nav-text-link > li > a {
         font-size: 16px;
         font-weight: 400;
+    }
+
+    .main-text > h1 {
+        font-size: 65px;
+        font-weight: 700;
     }
 }
