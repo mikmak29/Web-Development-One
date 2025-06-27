@@ -10,11 +10,11 @@
 </head>
 
 <body class="bg-[--bgcolor]">
-    <header>
+    <header class="bg-[--bgcolor]">
         <nav
-            class="h-auto w-[97dvw] bg-[#F5E9DD] py-4 px-10 mt-4 m-auto rounded-[8px] flex justify-between items-center">
-            <ul class="flex items-center gap-8 nav-text-link">
-                <div class="flex items-center gap-1 icon-text">
+            class="h-auto w-[95dvw] bg-[#F5E9DD] flex justify-between items-center p-2 rounded-[8px] mt-2 m-auto laptopL:w-[97dvw] laptopL:py-4 laptopL:px-10 laptopL:mt-4 laptopL:m-auto">
+            <di class="laptopL:flex laptopL:gap-8">
+                <div class="flex items-center gap-2 laptopL:flex laptopL:items-center laptopL:gap-1 laptopL:icon-text">
                     <svg width="33px" height="33px" viewBox="0 0 24 24" stroke-width="1.7" fill="none"
                         xmlns="http://www.w3.org/2000/svg" color="#F27B39">
                         <path
@@ -39,31 +39,50 @@
                         <path d="M20.5 20C20.5 18.65 19.5 18 19.5 18" stroke="#F27B39" stroke-width="1.7"
                             stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
-                    <a href="">Granada</a>
+                    <a href="" class="text-[--accentcolor]">Granada</a>
                 </div>
-                <li class="transform duration-300 ease-in-out hover:translate-x-1"><a href=""
-                        class="hover:text-[--accentcolor]">Pricing</a>
-                </li>
-                <li class="transform duration-300 ease-in-out hover:translate-x-1"><a href=""
-                        class="hover:text-[--accentcolor]">Partners</a>
-                </li>
-                <li class="transform duration-300 ease-in-out hover:translate-x-1"><a href=""
-                        class="hover:text-[--accentcolor]">About</a>
-                </li>
-                <li class="transform duration-300 ease-in-out hover:translate-x-1"><a href=""
-                        class="hover:text-[--accentcolor]">Features</a>
-                </li>
-            </ul>
-            <div class="flex items-center gap-8">
-                <button class="text-[--accentcolor] font-semibold">Log In</button>
-                <button class="py-2 px-4 bg-[--accentcolor] rounded-[20px] text-[--secondarycolor]">Sign
+                <ul class="hidden laptopL:flex laptopL:items-center laptopL:gap-8 laptopL:nav-text-link">
+
+                    <li class="laptopL:transform laptopL:duration-300 laptopL:ease-in-out laptopL:hover:translate-x-1">
+                        <a href="" class="laptopL:hover:text-[--accentcolor]">Pricing</a>
+                    </li>
+                    <li class="laptopL:transform laptopL:duration-300 laptopL:ease-in-out laptopL:hover:translate-x-1">
+                        <a href="" class="laptopL:hover:text-[--accentcolor]">Partners</a>
+                    </li>
+                    <li class="laptopL:transform laptopL:duration-300 laptopL:ease-in-out laptopL:hover:translate-x-1">
+                        <a href="" class="laptopL:hover:text-[--accentcolor]">About</a>
+                    </li>
+                    <li class="laptopL:transform laptopL:duration-300 laptopL:ease-in-out laptopL:hover:translate-x-1">
+                        <a href="" class="laptopL:hover:text-[--accentcolor]">Features</a>
+                    </li>
+                </ul>
+            </di>
+            <div class="hidden laptopL:flex laptopL:items-center laptopL:gap-8">
+                <button class="laptopL:text-[--accentcolor] laptopL:font-semibold">Log In</button>
+                <button
+                    class="laptopL:py-2 laptopL:px-4 laptopL:bg-[--accentcolor] laptopL:rounded-[20px] laptopL:text-[--secondarycolor]">Sign
                     Up</button>
+            </div>
+            <div class="flex items-center">
+                <svg width="25px" height="25px" stroke-width="1.7" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" color="#F27B39">
+                    <path d="M3 5H21" stroke="#F27B39" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 12H21" stroke="#F27B39" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 19H21" stroke="#F27B39" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                </svg>
             </div>
         </nav>
     </header>
     <main>
-        <div class="h-auto w-screen flex justify-center flex-col items-center pt-20">
-            <div class="bg-[--navbgcolor] border border-[--accentcolor] rounded-full py-2 px-8 flex items-center gap-1">
+        <div class="h-auto w-screen bg-[--bgcolor] flex justify-center text-center flex-col pt-12">
+            <div
+                class="bg-[--navbgcolor] border border-[--accentcolor] rounded-full flex justify-center items-center mx-8 gap-1 laptopL:py-2 laptopL:px-8 ">
                 <svg width="30px" height="30px" stroke-width="1.7" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg" color="#F27B39">
                     <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="#F27B39"
@@ -74,22 +93,22 @@
                 </svg>
                 <h1 class="text-[--text-accent-color]">Trusted by 10,000+ Writers</h1>
             </div>
-            <div class="relative main-text pt-7 text-center">
+            <div class="relative text-center main-text-mobile pt-4 laptopL:main-text laptopL:pt-7 ">
                 <h1 class="leading-none">Write Smarter.</h1>
                 <h1 class="leading-none">Publish Faster.</h1>
-                <p class="text-[--text-accent-color] text-[20px] pt-8">Create high-quality content in seconds with
-                    AI-powered
-                    <br>
-                    assistance built for blogs, email and
+                <p class="text-[--text-accent-color] text-[11px] pt-5 laptop:pt-8 laptopL:text-[20px]">Create
+                    high-quality
+                    content in seconds with AI-powered <br> assistance built for blogs, email and
                     everything in between.
                 </p>
-                <img src="./images/image_main_icon.png" alt="icon"
-                    class="absolute top-[45%] left-[-32px] h-[65px] w-[65px]">
+                <!-- <img src="./images/image_main_icon.png" alt="icon"
+                    class="absolute laptopL:top-[45%] laptopL:left-[-32px] laptopL:h-[65px] laptopL:w-[65px]">
                 <img src="./images/image_main_iconV2.png" alt="iconV2"
-                    class="absolute top-0 right-[-10px] h-[65px] w-[65px]">
+                    class="absolute laptopL:top-0 laptopL:right-[-10px] laptopL:h-[65px] laptopL:w-[65px]"> -->
             </div>
-            <div class="flex gap-2 pt-10">
-                <div class="bg-[--accentcolor] rounded-full flex items-center gap-1 py-3 px-8">
+            <div class="flex justify-center gap-6 pt-5 px-2 laptopL:pt-10 laptopL:gap-2">
+                <div
+                    class="bg-[--accentcolor] rounded-full flex items-center gap-1 py-2 px-4 text-xs laptopL:py-3 laptopL:px-8">
                     <h1 class="text-[--secondarycolor]">Start Writing Free</h1>
                     <svg width="20px" height="20px" stroke-width="1.7" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg" color="#fff">
@@ -97,13 +116,18 @@
                             stroke-linejoin="round"></path>
                     </svg>
                 </div>
-                <div class="border border-[--accentcolor] rounded-full flex items-center gap-1 py-3 px-8">
+                <div class="flex items-center text-xs">
                     <h1 class="text-[--accentcolor]">See How It Works</h1>
                 </div>
             </div>
-            <div class="h-auto w-full flex justify-center items-center flex-col mt-32 text-center">
+            <div
+                class="h-auto w-full flex justify-center items-center flex-col gap-10 text-center mt-20 laptopL:mt-32 ">
                 <h1 class="text-[--text-accent-color] text-[14px]">Trusted by Writer At</h1>
-                <img src="./images/image_main.png" alt="image main" class="h-[100px] w-[80%] object-contain pr-[50px]">
+                <img src="./images/samsung_icon.png" alt="" class="h-auto w-[60%] object-contain">
+                <img src="./images/webflow_icon.png" alt="" class="h-auto w-[60%] object-contain">
+                <img src="./images/google_icon.png" alt="" class="h-auto w-[60%] object-contain">
+                <img src="./images/framer_icon.png" alt="" class="h-auto w-[60%] object-contain">
+                <img src="./images/forbes_icon.png" alt="" class="h-auto w-[60%] object-contain">
             </div>
         </div>
     </main>

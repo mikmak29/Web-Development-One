@@ -21,9 +21,11 @@ module.exports = {
         center: true,
       },
       screens: {
-        'xs': '430px',
-        'ss': '540px',
+        'mobileM': '375px',
+        'mobileL': '425px',
+        'tablet': '768',
         'laptop': '1024px',
+        'laptopL': '1440px',
         'ipadpro': { 'raw': '(width: 1024px) and (min-height: 1000px)' },
         'nesthub': { 'raw': '(width: 1024px) and (max-height: 700px)' },
         'nesthubmax': { 'raw': '(width: 1280px) and (max-height: 900px)' },
