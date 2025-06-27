@@ -21,9 +21,8 @@ module.exports = {
         center: true,
       },
       screens: {
-        'mobileM': '375px',
         'mobileL': '425px',
-        'tablet': '768',
+        'tablet': '768px',
         'laptop': '1024px',
         'laptopL': '1440px',
         'ipadpro': { 'raw': '(width: 1024px) and (min-height: 1000px)' },
